@@ -1,3 +1,5 @@
+Download size: 138 MB
+
 Compiled with Visual Studio 2019 version 16.8.6.
 
 ```
