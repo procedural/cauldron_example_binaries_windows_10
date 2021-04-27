@@ -1,0 +1,10 @@
+C:/Users/iamvf/Desktop/glTFSample/build/DX12/CMakeFiles/ALL_BUILD.dir
+C:/Users/iamvf/Desktop/glTFSample/build/DX12/CMakeFiles/ZERO_CHECK.dir
+C:/Users/iamvf/Desktop/glTFSample/build/DX12/libs/cauldron/CMakeFiles/ALL_BUILD.dir
+C:/Users/iamvf/Desktop/glTFSample/build/DX12/libs/cauldron/src/common/CMakeFiles/Cauldron_Common.dir
+C:/Users/iamvf/Desktop/glTFSample/build/DX12/libs/cauldron/src/common/CMakeFiles/ALL_BUILD.dir
+C:/Users/iamvf/Desktop/glTFSample/build/DX12/libs/cauldron/libs/imgui/CMakeFiles/ImGUI.dir
+C:/Users/iamvf/Desktop/glTFSample/build/DX12/libs/cauldron/libs/imgui/CMakeFiles/ALL_BUILD.dir
+C:/Users/iamvf/Desktop/glTFSample/build/DX12/libs/cauldron/libs/DXC/CMakeFiles/ALL_BUILD.dir
+C:/Users/iamvf/Desktop/glTFSample/build/DX12/libs/cauldron/src/DX12/CMakeFiles/Cauldron_DX12.dir
+C:/Users/iamvf/Desktop/glTFSample/build/DX12/src/DX12/CMakeFiles/GLTFSample_DX12.dir

@@ -1,0 +1,466 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D240651A-EC4E-32C2-9F4D-852158E5A012}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>GLTFSample_DX12</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/iamvf/Desktop/glTFSample/bin</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GLTFSample_DX12.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GLTFSample_DX12</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/iamvf/Desktop/glTFSample/bin</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GLTFSample_DX12.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GLTFSample_DX12</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/iamvf/Desktop/glTFSample/bin</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GLTFSample_DX12.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GLTFSample_DX12</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/iamvf/Desktop/glTFSample/bin</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GLTFSample_DX12.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GLTFSample_DX12</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\json;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\d3d12x;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\json;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\d3d12x;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\json;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\d3d12x;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Adding display aware manifest...</Message>
+      <Command>setlocal
+mt.exe -manifest "C:/Users/iamvf/Desktop/glTFSample/src/DX12\dpiawarescaling.manifest" -inputresource:"C:/Users/iamvf/Desktop/glTFSample/bin/GLTFSample_DX12.exe";#1 -outputresource:"C:/Users/iamvf/Desktop/glTFSample/bin/GLTFSample_DX12.exe";#1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\libs\cauldron\src\DX12\Debug\Cauldron_DX12.lib;..\..\libs\cauldron\libs\imgui\Debug\ImGUI.lib;..\..\..\..\libs\cauldron\libs\AGS\amd_ags_x64.lib;dxcompiler.lib;d3dcompiler.lib;D3D12.lib;..\..\libs\cauldron\src\common\Debug\Cauldron_Common.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/iamvf/Desktop/glTFSample/build/DX12/src/DX12/Debug/GLTFSample_DX12.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/iamvf/Desktop/glTFSample/bin/GLTFSample_DX12.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\json;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\d3d12x;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\json;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\d3d12x;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\json;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\d3d12x;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Adding display aware manifest...</Message>
+      <Command>setlocal
+mt.exe -manifest "C:/Users/iamvf/Desktop/glTFSample/src/DX12\dpiawarescaling.manifest" -inputresource:"C:/Users/iamvf/Desktop/glTFSample/bin/GLTFSample_DX12.exe";#1 -outputresource:"C:/Users/iamvf/Desktop/glTFSample/bin/GLTFSample_DX12.exe";#1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\libs\cauldron\src\DX12\Release\Cauldron_DX12.lib;..\..\libs\cauldron\libs\imgui\Release\ImGUI.lib;..\..\..\..\libs\cauldron\libs\AGS\amd_ags_x64.lib;dxcompiler.lib;d3dcompiler.lib;D3D12.lib;..\..\libs\cauldron\src\common\Release\Cauldron_Common.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/iamvf/Desktop/glTFSample/build/DX12/src/DX12/Release/GLTFSample_DX12.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/iamvf/Desktop/glTFSample/bin/GLTFSample_DX12.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\json;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\d3d12x;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\json;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\d3d12x;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\json;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\d3d12x;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Adding display aware manifest...</Message>
+      <Command>setlocal
+mt.exe -manifest "C:/Users/iamvf/Desktop/glTFSample/src/DX12\dpiawarescaling.manifest" -inputresource:"C:/Users/iamvf/Desktop/glTFSample/bin/GLTFSample_DX12.exe";#1 -outputresource:"C:/Users/iamvf/Desktop/glTFSample/bin/GLTFSample_DX12.exe";#1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\libs\cauldron\src\DX12\MinSizeRel\Cauldron_DX12.lib;..\..\libs\cauldron\libs\imgui\MinSizeRel\ImGUI.lib;..\..\..\..\libs\cauldron\libs\AGS\amd_ags_x64.lib;dxcompiler.lib;d3dcompiler.lib;D3D12.lib;..\..\libs\cauldron\src\common\MinSizeRel\Cauldron_Common.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/iamvf/Desktop/glTFSample/build/DX12/src/DX12/MinSizeRel/GLTFSample_DX12.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/iamvf/Desktop/glTFSample/bin/GLTFSample_DX12.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\json;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\d3d12x;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\json;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\d3d12x;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\json;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\d3d12x;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Adding display aware manifest...</Message>
+      <Command>setlocal
+mt.exe -manifest "C:/Users/iamvf/Desktop/glTFSample/src/DX12\dpiawarescaling.manifest" -inputresource:"C:/Users/iamvf/Desktop/glTFSample/bin/GLTFSample_DX12.exe";#1 -outputresource:"C:/Users/iamvf/Desktop/glTFSample/bin/GLTFSample_DX12.exe";#1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\libs\cauldron\src\DX12\RelWithDebInfo\Cauldron_DX12.lib;..\..\libs\cauldron\libs\imgui\RelWithDebInfo\ImGUI.lib;..\..\..\..\libs\cauldron\libs\AGS\amd_ags_x64.lib;dxcompiler.lib;d3dcompiler.lib;D3D12.lib;..\..\libs\cauldron\src\common\RelWithDebInfo\Cauldron_Common.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/iamvf/Desktop/glTFSample/build/DX12/src/DX12/RelWithDebInfo/GLTFSample_DX12.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/iamvf/Desktop/glTFSample/bin/GLTFSample_DX12.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\iamvf\Desktop\glTFSample\src\Common\GLTFSample.json">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating GLTFSample.json into C:/Users/iamvf/Desktop/glTFSample/bin</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/src/DX12/../Common/GLTFSample.json C:/Users/iamvf/Desktop/glTFSample/bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\GLTFSample.json</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating GLTFSample.json into C:/Users/iamvf/Desktop/glTFSample/bin</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/src/DX12/../Common/GLTFSample.json C:/Users/iamvf/Desktop/glTFSample/bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\GLTFSample.json</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating GLTFSample.json into C:/Users/iamvf/Desktop/glTFSample/bin</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/src/DX12/../Common/GLTFSample.json C:/Users/iamvf/Desktop/glTFSample/bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\GLTFSample.json</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating GLTFSample.json into C:/Users/iamvf/Desktop/glTFSample/bin</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/src/DX12/../Common/GLTFSample.json C:/Users/iamvf/Desktop/glTFSample/bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\GLTFSample.json</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\iamvf\Desktop\glTFSample\src\DX12\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/iamvf/Desktop/glTFSample/src/DX12/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/iamvf/Desktop/glTFSample -BC:/Users/iamvf/Desktop/glTFSample/build/DX12 --check-stamp-file C:/Users/iamvf/Desktop/glTFSample/build/DX12/src/DX12/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\iamvf\Desktop\glTFSample\common.cmake;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\common.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\iamvf\Desktop\glTFSample\build\DX12\src\DX12\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/iamvf/Desktop/glTFSample/src/DX12/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/iamvf/Desktop/glTFSample -BC:/Users/iamvf/Desktop/glTFSample/build/DX12 --check-stamp-file C:/Users/iamvf/Desktop/glTFSample/build/DX12/src/DX12/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\iamvf\Desktop\glTFSample\common.cmake;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\common.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\iamvf\Desktop\glTFSample\build\DX12\src\DX12\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/iamvf/Desktop/glTFSample/src/DX12/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/iamvf/Desktop/glTFSample -BC:/Users/iamvf/Desktop/glTFSample/build/DX12 --check-stamp-file C:/Users/iamvf/Desktop/glTFSample/build/DX12/src/DX12/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\iamvf\Desktop\glTFSample\common.cmake;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\common.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\iamvf\Desktop\glTFSample\build\DX12\src\DX12\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/iamvf/Desktop/glTFSample/src/DX12/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/iamvf/Desktop/glTFSample -BC:/Users/iamvf/Desktop/glTFSample/build/DX12 --check-stamp-file C:/Users/iamvf/Desktop/glTFSample/build/DX12/src/DX12/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\iamvf\Desktop\glTFSample\common.cmake;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\common.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\iamvf\Desktop\glTFSample\build\DX12\src\DX12\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\src\DX12\GLTFSample.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\src\DX12\GLTFSample.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\src\DX12\SampleRenderer.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\src\DX12\SampleRenderer.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\src\DX12\stdafx.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\src\DX12\stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\iamvf\Desktop\glTFSample\build\DX12\ZERO_CHECK.vcxproj">
+      <Project>{513F4B7E-37AD-310F-9E8A-02B581647922}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\iamvf\Desktop\glTFSample\build\DX12\libs\cauldron\src\common\Cauldron_Common.vcxproj">
+      <Project>{69A32449-0795-3D89-A38B-3E10BF14A2D0}</Project>
+      <Name>Cauldron_Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\iamvf\Desktop\glTFSample\build\DX12\libs\cauldron\src\DX12\Cauldron_DX12.vcxproj">
+      <Project>{56DAD24C-F8F9-341E-8D23-44ED2185F117}</Project>
+      <Name>Cauldron_DX12</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\iamvf\Desktop\glTFSample\build\DX12\libs\cauldron\libs\imgui\ImGUI.vcxproj">
+      <Project>{167A5106-82FC-3D20-B264-78EA27AE9067}</Project>
+      <Name>ImGUI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,5 @@
+﻿  Building Custom Rule C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/libs/imgui/CMakeLists.txt
+  imgui.cpp
+  imgui_draw.cpp
+  Generating Code...
+  ImGUI.vcxproj -> C:\Users\iamvf\Desktop\glTFSample\build\DX12\libs\cauldron\libs\imgui\Release\ImGUI.lib

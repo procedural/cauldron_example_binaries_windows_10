@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\src\DX12\GLTFSample.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\src\DX12\SampleRenderer.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\src\DX12\stdafx.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\src\DX12\GLTFSample.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\src\DX12\SampleRenderer.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\src\DX12\stdafx.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\iamvf\Desktop\glTFSample\src\Common\GLTFSample.json">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\iamvf\Desktop\glTFSample\src\DX12\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{1C2F9D61-CF1F-3865-B26B-3200BA1584AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{03D89287-3616-35AD-B8E2-E047BE668086}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

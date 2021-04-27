@@ -1,0 +1,13 @@
+﻿  Updating GLTFSample.json into C:/Users/iamvf/Desktop/glTFSample/bin
+  Building Custom Rule C:/Users/iamvf/Desktop/glTFSample/src/DX12/CMakeLists.txt
+  GLTFSample.cpp
+  SampleRenderer.cpp
+  stdafx.cpp
+  GLTFSample_DX12.vcxproj -> C:\Users\iamvf\Desktop\glTFSample\bin\GLTFSample_DX12.exe
+  Adding display aware manifest...
+  Microsoft (R) Manifest Tool
+  
+  Copyright (c) Microsoft Corporation. 
+  
+  All rights reserved.
+  

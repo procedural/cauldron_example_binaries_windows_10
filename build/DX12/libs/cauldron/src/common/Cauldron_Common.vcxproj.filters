@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\base\Sequence.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\base\Benchmark.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\base\ImGuiHelper.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\GLTF\GltfCommon.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\GLTF\GltfPbrMaterial.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\GLTF\glTFHelpers.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\Async.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\Camera.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\ColorConversion.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\DDSLoader.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\DxgiFormatHelper.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\Error.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\FrameworkWindows.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\Hash.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\ImgLoader.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\Misc.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\ThreadPool.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\WICLoader.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\WirePrimitives.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\base\ShaderCompiler.cpp">
+      <Filter>SC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\base\ShaderCompilerCache.cpp">
+      <Filter>SC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\base\DXCHelper.cpp">
+      <Filter>SC</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\base\Sequence.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\base\Benchmark.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\base\ImGuiHelper.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\GLTF\GltfStructures.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\GLTF\GltfCommon.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\GLTF\GltfPbrMaterial.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\GLTF\GltfHelpers.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\Async.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\AsyncCache.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\Camera.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\ColorConversion.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\DDSLoader.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\DxgiFormatHelper.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\Error.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\FrameworkWindows.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\Hash.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\ImgLoader.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\Misc.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\Ring.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\WICLoader.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\WirePrimitive.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\WirePrimitives.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\threadpool.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\base\ShaderCompiler.h">
+      <Filter>SC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\base\ShaderCompilerCache.h">
+      <Filter>SC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\base\DXCHelper.h">
+      <Filter>SC</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GLTF">
+      <UniqueIdentifier>{A135732E-BF57-3886-905B-E473C4A74A82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{D589DAED-5B5C-31C5-9145-4A5BB8B1BF0E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SC">
+      <UniqueIdentifier>{D836B3F6-5A76-3608-9711-5453D35E2768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{B5F21E0A-5B32-30D5-A2CF-66FC728086D3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

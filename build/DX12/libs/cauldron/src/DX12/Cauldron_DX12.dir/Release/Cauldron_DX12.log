@@ -1,0 +1,74 @@
+﻿  Updating common.h into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+  Updating GLTFPbrPass-PS.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+  Updating GLTFPbrPass-VS.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+  Updating GLTFPbrPass-IO.h into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+  Updating GLTFPBRLighting.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+  Updating GLTFDepthPass.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+  Updating GLTFNormals.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+  Updating ShadowResolve.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+  Updating GLTFMotionVectorsPass.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+  Updating SkyDome.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+  Updating SkyDomeProc.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+  Updating functions.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+  Updating PBRTextures.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+  Updating shadowFiltering.h into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+  Updating PBRPixelParams.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+  Updating BakeSkinning.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+  Updating Skinning.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+  Updating GLTFVertexFactory.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+  Updating perFrameStruct.h into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+  Updating blend.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+  Updating blur.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+  Updating Debug.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+  Updating DownSamplePS.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+  Updating Tonemappers.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+  Updating Tonemapping.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+  Updating TonemappingCS.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+  Updating ColorConversionPS.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+  Updating TAA.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+  Updating TAASharpenerCS.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+  Updating motionBlur.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+  Updating brdfLut.dds into C:/Users/iamvf/Desktop/glTFSample/bin
+  Building Custom Rule C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/CMakeLists.txt
+  GltfBBoxPass.cpp
+  GltfDepthPass.cpp
+  glTFHelpers.cpp
+  GltfPbrPass.cpp
+  GltfMotionVectorsPass.cpp
+  GLTFTexturesAndBuffers.cpp
+  Bloom.cpp
+  BakeSkinning.cpp
+  BlurPS.cpp
+  Debug.cpp
+  DownSamplePS.cpp
+  PostProcCS.cpp
+  PostProcPS.cpp
+  SkyDome.cpp
+  SkyDomeProc.cpp
+  TAA.cpp
+  ColorConversionPS.cpp
+  Tonemapping.cpp
+  TonemappingCS.cpp
+  ShadowResolvePass.cpp
+  Buffer.cpp
+  CommandListRing.cpp
+  Device.cpp
+  DynamicBufferRing.cpp
+  Fence.cpp
+  FreesyncHDR.cpp
+  GBuffer.cpp
+  GPUTimestamps.cpp
+  Helper.cpp
+  Imgui.cpp
+  ResourceViewHeaps.cpp
+  ShaderCompilerHelper.cpp
+  StaticBufferPool.cpp
+  StaticConstantBufferPool.cpp
+  SaveTexture.cpp
+  SwapChain.cpp
+  Texture.cpp
+  UploadHeapSimple.cpp
+  UploadHeap.cpp
+  UserMarkers.cpp
+  Wireframe.cpp
+  Cauldron_DX12.vcxproj -> C:\Users\iamvf\Desktop\glTFSample\build\DX12\libs\cauldron\src\DX12\Release\Cauldron_DX12.lib

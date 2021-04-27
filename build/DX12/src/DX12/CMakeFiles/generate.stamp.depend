@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+C:/Users/iamvf/Desktop/glTFSample/common.cmake
+C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/common.cmake
+C:/Users/iamvf/Desktop/glTFSample/src/DX12/CMakeLists.txt

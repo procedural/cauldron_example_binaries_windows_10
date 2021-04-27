@@ -1,0 +1,2356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{56DAD24C-F8F9-341E-8D23-44ED2185F117}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>Cauldron_DX12</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\iamvf\Desktop\glTFSample\build\DX12\libs\cauldron\src\DX12\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Cauldron_DX12.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Cauldron_DX12</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\iamvf\Desktop\glTFSample\build\DX12\libs\cauldron\src\DX12\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Cauldron_DX12.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Cauldron_DX12</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\iamvf\Desktop\glTFSample\build\DX12\libs\cauldron\src\DX12\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Cauldron_DX12.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Cauldron_DX12</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\iamvf\Desktop\glTFSample\build\DX12\libs\cauldron\src\DX12\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Cauldron_DX12.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Cauldron_DX12</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\json;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\d3d12x;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\json;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\d3d12x;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\json;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\d3d12x;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\json;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\d3d12x;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\json;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\d3d12x;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\json;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\d3d12x;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\json;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\d3d12x;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\json;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\d3d12x;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\json;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\d3d12x;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\json;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\d3d12x;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\json;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\d3d12x;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\json;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\d3d12x;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\shaders\common.h">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating common.h into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/common.h C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\common.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating common.h into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/common.h C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\common.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating common.h into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/common.h C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\common.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating common.h into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/common.h C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\common.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\shaders\GLTFPbrPass-PS.hlsl">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating GLTFPbrPass-PS.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/GLTFPbrPass-PS.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\GLTFPbrPass-PS.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating GLTFPbrPass-PS.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/GLTFPbrPass-PS.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\GLTFPbrPass-PS.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating GLTFPbrPass-PS.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/GLTFPbrPass-PS.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\GLTFPbrPass-PS.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating GLTFPbrPass-PS.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/GLTFPbrPass-PS.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\GLTFPbrPass-PS.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\shaders\GLTFPbrPass-VS.hlsl">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating GLTFPbrPass-VS.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/GLTFPbrPass-VS.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\GLTFPbrPass-VS.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating GLTFPbrPass-VS.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/GLTFPbrPass-VS.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\GLTFPbrPass-VS.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating GLTFPbrPass-VS.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/GLTFPbrPass-VS.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\GLTFPbrPass-VS.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating GLTFPbrPass-VS.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/GLTFPbrPass-VS.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\GLTFPbrPass-VS.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\shaders\GLTFPbrPass-IO.h">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating GLTFPbrPass-IO.h into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/GLTFPbrPass-IO.h C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\GLTFPbrPass-IO.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating GLTFPbrPass-IO.h into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/GLTFPbrPass-IO.h C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\GLTFPbrPass-IO.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating GLTFPbrPass-IO.h into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/GLTFPbrPass-IO.h C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\GLTFPbrPass-IO.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating GLTFPbrPass-IO.h into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/GLTFPbrPass-IO.h C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\GLTFPbrPass-IO.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\shaders\GLTFPBRLighting.hlsl">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating GLTFPBRLighting.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/GLTFPBRLighting.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\GLTFPBRLighting.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating GLTFPBRLighting.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/GLTFPBRLighting.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\GLTFPBRLighting.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating GLTFPBRLighting.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/GLTFPBRLighting.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\GLTFPBRLighting.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating GLTFPBRLighting.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/GLTFPBRLighting.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\GLTFPBRLighting.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\shaders\GLTFDepthPass.hlsl">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating GLTFDepthPass.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/GLTFDepthPass.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\GLTFDepthPass.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating GLTFDepthPass.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/GLTFDepthPass.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\GLTFDepthPass.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating GLTFDepthPass.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/GLTFDepthPass.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\GLTFDepthPass.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating GLTFDepthPass.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/GLTFDepthPass.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\GLTFDepthPass.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\shaders\GLTFNormals.hlsl">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating GLTFNormals.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/GLTFNormals.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\GLTFNormals.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating GLTFNormals.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/GLTFNormals.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\GLTFNormals.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating GLTFNormals.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/GLTFNormals.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\GLTFNormals.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating GLTFNormals.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/GLTFNormals.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\GLTFNormals.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\shaders\ShadowResolve.hlsl">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating ShadowResolve.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/ShadowResolve.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\ShadowResolve.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating ShadowResolve.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/ShadowResolve.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\ShadowResolve.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating ShadowResolve.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/ShadowResolve.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\ShadowResolve.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating ShadowResolve.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/ShadowResolve.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\ShadowResolve.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\shaders\GLTFMotionVectorsPass.hlsl">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating GLTFMotionVectorsPass.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/GLTFMotionVectorsPass.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\GLTFMotionVectorsPass.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating GLTFMotionVectorsPass.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/GLTFMotionVectorsPass.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\GLTFMotionVectorsPass.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating GLTFMotionVectorsPass.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/GLTFMotionVectorsPass.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\GLTFMotionVectorsPass.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating GLTFMotionVectorsPass.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/GLTFMotionVectorsPass.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\GLTFMotionVectorsPass.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\shaders\SkyDome.hlsl">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating SkyDome.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/SkyDome.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\SkyDome.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating SkyDome.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/SkyDome.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\SkyDome.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating SkyDome.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/SkyDome.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\SkyDome.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating SkyDome.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/SkyDome.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\SkyDome.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\shaders\SkyDomeProc.hlsl">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating SkyDomeProc.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/SkyDomeProc.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\SkyDomeProc.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating SkyDomeProc.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/SkyDomeProc.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\SkyDomeProc.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating SkyDomeProc.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/SkyDomeProc.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\SkyDomeProc.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating SkyDomeProc.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/SkyDomeProc.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\SkyDomeProc.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\shaders\functions.hlsl">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating functions.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/functions.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\functions.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating functions.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/functions.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\functions.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating functions.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/functions.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\functions.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating functions.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/functions.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\functions.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\shaders\PBRTextures.hlsl">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating PBRTextures.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/PBRTextures.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\PBRTextures.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating PBRTextures.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/PBRTextures.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\PBRTextures.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating PBRTextures.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/PBRTextures.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\PBRTextures.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating PBRTextures.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/PBRTextures.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\PBRTextures.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\shaders\shadowFiltering.h">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating shadowFiltering.h into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/shadowFiltering.h C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\shadowFiltering.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating shadowFiltering.h into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/shadowFiltering.h C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\shadowFiltering.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating shadowFiltering.h into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/shadowFiltering.h C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\shadowFiltering.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating shadowFiltering.h into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/shadowFiltering.h C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\shadowFiltering.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\shaders\PBRPixelParams.hlsl">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating PBRPixelParams.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/PBRPixelParams.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\PBRPixelParams.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating PBRPixelParams.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/PBRPixelParams.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\PBRPixelParams.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating PBRPixelParams.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/PBRPixelParams.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\PBRPixelParams.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating PBRPixelParams.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/PBRPixelParams.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\PBRPixelParams.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\shaders\BakeSkinning.hlsl">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating BakeSkinning.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/BakeSkinning.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\BakeSkinning.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating BakeSkinning.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/BakeSkinning.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\BakeSkinning.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating BakeSkinning.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/BakeSkinning.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\BakeSkinning.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating BakeSkinning.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/BakeSkinning.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\BakeSkinning.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\shaders\Skinning.hlsl">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating Skinning.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/Skinning.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\Skinning.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating Skinning.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/Skinning.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\Skinning.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating Skinning.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/Skinning.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\Skinning.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating Skinning.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/Skinning.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\Skinning.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\shaders\GLTFVertexFactory.hlsl">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating GLTFVertexFactory.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/GLTFVertexFactory.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\GLTFVertexFactory.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating GLTFVertexFactory.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/GLTFVertexFactory.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\GLTFVertexFactory.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating GLTFVertexFactory.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/GLTFVertexFactory.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\GLTFVertexFactory.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating GLTFVertexFactory.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/GLTFVertexFactory.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\GLTFVertexFactory.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\shaders\perFrameStruct.h">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating perFrameStruct.h into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/perFrameStruct.h C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\perFrameStruct.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating perFrameStruct.h into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/perFrameStruct.h C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\perFrameStruct.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating perFrameStruct.h into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/perFrameStruct.h C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\perFrameStruct.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating perFrameStruct.h into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/perFrameStruct.h C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\perFrameStruct.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\shaders\blend.hlsl">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating blend.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/blend.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\blend.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating blend.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/blend.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\blend.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating blend.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/blend.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\blend.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating blend.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/blend.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\blend.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\shaders\blur.hlsl">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating blur.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/blur.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\blur.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating blur.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/blur.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\blur.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating blur.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/blur.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\blur.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating blur.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/blur.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\blur.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\shaders\Debug.hlsl">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating Debug.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/Debug.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\Debug.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating Debug.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/Debug.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\Debug.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating Debug.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/Debug.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\Debug.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating Debug.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/Debug.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\Debug.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\shaders\DownSamplePS.hlsl">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating DownSamplePS.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/DownSamplePS.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\DownSamplePS.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating DownSamplePS.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/DownSamplePS.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\DownSamplePS.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating DownSamplePS.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/DownSamplePS.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\DownSamplePS.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating DownSamplePS.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/DownSamplePS.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\DownSamplePS.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\shaders\Tonemappers.hlsl">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating Tonemappers.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/Tonemappers.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\Tonemappers.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating Tonemappers.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/Tonemappers.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\Tonemappers.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating Tonemappers.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/Tonemappers.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\Tonemappers.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating Tonemappers.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/Tonemappers.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\Tonemappers.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\shaders\Tonemapping.hlsl">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating Tonemapping.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/Tonemapping.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\Tonemapping.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating Tonemapping.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/Tonemapping.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\Tonemapping.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating Tonemapping.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/Tonemapping.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\Tonemapping.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating Tonemapping.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/Tonemapping.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\Tonemapping.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\shaders\TonemappingCS.hlsl">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating TonemappingCS.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/TonemappingCS.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\TonemappingCS.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating TonemappingCS.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/TonemappingCS.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\TonemappingCS.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating TonemappingCS.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/TonemappingCS.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\TonemappingCS.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating TonemappingCS.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/TonemappingCS.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\TonemappingCS.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\shaders\ColorConversionPS.hlsl">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating ColorConversionPS.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/ColorConversionPS.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\ColorConversionPS.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating ColorConversionPS.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/ColorConversionPS.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\ColorConversionPS.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating ColorConversionPS.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/ColorConversionPS.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\ColorConversionPS.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating ColorConversionPS.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/ColorConversionPS.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\ColorConversionPS.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\shaders\taa.hlsl">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating TAA.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/TAA.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\TAA.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating TAA.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/TAA.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\TAA.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating TAA.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/TAA.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\TAA.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating TAA.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/TAA.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\TAA.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\shaders\TAASharpenerCS.hlsl">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating TAASharpenerCS.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/TAASharpenerCS.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\TAASharpenerCS.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating TAASharpenerCS.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/TAASharpenerCS.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\TAASharpenerCS.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating TAASharpenerCS.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/TAASharpenerCS.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\TAASharpenerCS.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating TAASharpenerCS.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/TAASharpenerCS.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\TAASharpenerCS.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\shaders\motionBlur.hlsl">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating motionBlur.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/motionBlur.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\motionBlur.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating motionBlur.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/motionBlur.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\motionBlur.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating motionBlur.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/motionBlur.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\motionBlur.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating motionBlur.hlsl into C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/motionBlur.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\ShaderLibDX\motionBlur.hlsl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\media\BrdfLut.dds">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating brdfLut.dds into C:/Users/iamvf/Desktop/glTFSample/bin</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/../../media/brdfLut.dds C:/Users/iamvf/Desktop/glTFSample/bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\brdfLut.dds</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating brdfLut.dds into C:/Users/iamvf/Desktop/glTFSample/bin</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/../../media/brdfLut.dds C:/Users/iamvf/Desktop/glTFSample/bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\brdfLut.dds</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating brdfLut.dds into C:/Users/iamvf/Desktop/glTFSample/bin</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/../../media/brdfLut.dds C:/Users/iamvf/Desktop/glTFSample/bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\brdfLut.dds</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating brdfLut.dds into C:/Users/iamvf/Desktop/glTFSample/bin</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/../../media/brdfLut.dds C:/Users/iamvf/Desktop/glTFSample/bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\iamvf\Desktop\glTFSample\bin\brdfLut.dds</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/iamvf/Desktop/glTFSample -BC:/Users/iamvf/Desktop/glTFSample/build/DX12 --check-stamp-file C:/Users/iamvf/Desktop/glTFSample/build/DX12/libs/cauldron/src/DX12/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\common.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\iamvf\Desktop\glTFSample\build\DX12\libs\cauldron\src\DX12\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/iamvf/Desktop/glTFSample -BC:/Users/iamvf/Desktop/glTFSample/build/DX12 --check-stamp-file C:/Users/iamvf/Desktop/glTFSample/build/DX12/libs/cauldron/src/DX12/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\common.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\iamvf\Desktop\glTFSample\build\DX12\libs\cauldron\src\DX12\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/iamvf/Desktop/glTFSample -BC:/Users/iamvf/Desktop/glTFSample/build/DX12 --check-stamp-file C:/Users/iamvf/Desktop/glTFSample/build/DX12/libs/cauldron/src/DX12/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\common.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\iamvf\Desktop\glTFSample\build\DX12\libs\cauldron\src\DX12\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/iamvf/Desktop/glTFSample -BC:/Users/iamvf/Desktop/glTFSample/build/DX12 --check-stamp-file C:/Users/iamvf/Desktop/glTFSample/build/DX12/libs/cauldron/src/DX12/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\common.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\iamvf\Desktop\glTFSample\build\DX12\libs\cauldron\src\DX12\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\GLTF\GltfBBoxPass.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\GLTF\GltfBBoxPass.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\GLTF\GltfDepthPass.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\GLTF\GltfDepthPass.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\GLTF\glTFHelpers.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\GLTF\glTFHelpers.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\GLTF\GltfPbrPass.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\GLTF\GltfPbrPass.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\GLTF\GltfMotionVectorsPass.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\GLTF\GltfMotionVectorsPass.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\GLTF\GLTFTexturesAndBuffers.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\GLTF\GLTFTexturesAndBuffers.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\PostProc\Bloom.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\PostProc\Bloom.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\PostProc\BakeSkinning.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\PostProc\BakeSkinning.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\PostProc\BlurPS.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\PostProc\BlurPS.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\PostProc\Debug.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\PostProc\Debug.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\PostProc\DownSamplePS.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\PostProc\DownSamplePS.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\PostProc\PostProcCS.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\PostProc\PostProcCS.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\PostProc\PostProcPS.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\PostProc\PostProcPS.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\PostProc\SkyDome.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\PostProc\SkyDome.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\PostProc\SkyDomeProc.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\PostProc\SkyDomeProc.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\PostProc\TAA.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\PostProc\TAA.h" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\PostProc\ColorConversionPS.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\PostProc\ColorConversionPS.cpp" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\PostProc\Tonemapping.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\PostProc\Tonemapping.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\PostProc\TonemappingCS.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\PostProc\TonemappingCS.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\PostProc\ShadowResolvePass.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\PostProc\ShadowResolvePass.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\base\Buffer.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\base\Buffer.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\base\CommandListRing.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\base\CommandListRing.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\base\Device.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\base\Device.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\base\DynamicBufferRing.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\base\DynamicBufferRing.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\base\Fence.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\base\Fence.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\base\FreesyncHDR.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\base\FreesyncHDR.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\base\GBuffer.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\base\GBuffer.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\base\GPUTimestamps.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\base\GPUTimestamps.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\base\Helper.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\base\Helper.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\base\Imgui.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\base\Imgui.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\base\ResourceViewHeaps.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\base\ResourceViewHeaps.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\base\ShaderCompilerHelper.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\base\ShaderCompilerHelper.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\base\StaticBufferPool.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\base\StaticBufferPool.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\base\StaticConstantBufferPool.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\base\StaticConstantBufferPool.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\base\SaveTexture.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\base\SaveTexture.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\base\SwapChain.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\base\SwapChain.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\base\Texture.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\base\Texture.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\base\UploadHeapSimple.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\base\UploadHeapSimple.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\base\UploadHeap.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\base\UploadHeap.h" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\base\UserMarkers.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\base\UserMarkers.cpp" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\widgets\Wireframe.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\widgets\Wireframe.h" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\widgets\WireframeBox.h" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\DX12\widgets\WireframeSphere.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\iamvf\Desktop\glTFSample\build\DX12\ZERO_CHECK.vcxproj">
+      <Project>{513F4B7E-37AD-310F-9E8A-02B581647922}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\iamvf\Desktop\glTFSample\build\DX12\libs\cauldron\src\common\Cauldron_Common.vcxproj">
+      <Project>{69A32449-0795-3D89-A38B-3E10BF14A2D0}</Project>
+      <Name>Cauldron_Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

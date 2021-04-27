@@ -1,0 +1,24 @@
+﻿  Building Custom Rule C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/common/CMakeLists.txt
+  Sequence.cpp
+  Benchmark.cpp
+  ImGuiHelper.cpp
+  GltfCommon.cpp
+  GltfPbrMaterial.cpp
+  glTFHelpers.cpp
+  Async.cpp
+  Camera.cpp
+  ColorConversion.cpp
+  DDSLoader.cpp
+  DxgiFormatHelper.cpp
+  Error.cpp
+  FrameworkWindows.cpp
+  Hash.cpp
+  ImgLoader.cpp
+  Misc.cpp
+  ThreadPool.cpp
+  WICLoader.cpp
+  WirePrimitives.cpp
+  ShaderCompiler.cpp
+  ShaderCompilerCache.cpp
+  DXCHelper.cpp
+  Cauldron_Common.vcxproj -> C:\Users\iamvf\Desktop\glTFSample\build\DX12\libs\cauldron\src\common\Release\Cauldron_Common.lib

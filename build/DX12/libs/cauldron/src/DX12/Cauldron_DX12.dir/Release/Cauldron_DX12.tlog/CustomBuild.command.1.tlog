@@ -1,0 +1,382 @@
+^C:\USERS\IAMVF\DESKTOP\GLTFSAMPLE\LIBS\CAULDRON\SRC\DX12\SHADERS\COMMON.H
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/common.h C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\IAMVF\DESKTOP\GLTFSAMPLE\LIBS\CAULDRON\SRC\DX12\SHADERS\GLTFPBRPASS-PS.HLSL
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/GLTFPbrPass-PS.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\IAMVF\DESKTOP\GLTFSAMPLE\LIBS\CAULDRON\SRC\DX12\SHADERS\GLTFPBRPASS-VS.HLSL
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/GLTFPbrPass-VS.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\IAMVF\DESKTOP\GLTFSAMPLE\LIBS\CAULDRON\SRC\DX12\SHADERS\GLTFPBRPASS-IO.H
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/GLTFPbrPass-IO.h C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\IAMVF\DESKTOP\GLTFSAMPLE\LIBS\CAULDRON\SRC\DX12\SHADERS\GLTFPBRLIGHTING.HLSL
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/GLTFPBRLighting.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\IAMVF\DESKTOP\GLTFSAMPLE\LIBS\CAULDRON\SRC\DX12\SHADERS\GLTFDEPTHPASS.HLSL
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/GLTFDepthPass.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\IAMVF\DESKTOP\GLTFSAMPLE\LIBS\CAULDRON\SRC\DX12\SHADERS\GLTFNORMALS.HLSL
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/GLTFNormals.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\IAMVF\DESKTOP\GLTFSAMPLE\LIBS\CAULDRON\SRC\DX12\SHADERS\SHADOWRESOLVE.HLSL
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/ShadowResolve.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\IAMVF\DESKTOP\GLTFSAMPLE\LIBS\CAULDRON\SRC\DX12\SHADERS\GLTFMOTIONVECTORSPASS.HLSL
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/GLTFMotionVectorsPass.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\IAMVF\DESKTOP\GLTFSAMPLE\LIBS\CAULDRON\SRC\DX12\SHADERS\SKYDOME.HLSL
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/SkyDome.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\IAMVF\DESKTOP\GLTFSAMPLE\LIBS\CAULDRON\SRC\DX12\SHADERS\SKYDOMEPROC.HLSL
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/SkyDomeProc.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\IAMVF\DESKTOP\GLTFSAMPLE\LIBS\CAULDRON\SRC\DX12\SHADERS\FUNCTIONS.HLSL
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/functions.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\IAMVF\DESKTOP\GLTFSAMPLE\LIBS\CAULDRON\SRC\DX12\SHADERS\PBRTEXTURES.HLSL
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/PBRTextures.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\IAMVF\DESKTOP\GLTFSAMPLE\LIBS\CAULDRON\SRC\DX12\SHADERS\SHADOWFILTERING.H
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/shadowFiltering.h C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\IAMVF\DESKTOP\GLTFSAMPLE\LIBS\CAULDRON\SRC\DX12\SHADERS\PBRPIXELPARAMS.HLSL
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/PBRPixelParams.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\IAMVF\DESKTOP\GLTFSAMPLE\LIBS\CAULDRON\SRC\DX12\SHADERS\BAKESKINNING.HLSL
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/BakeSkinning.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\IAMVF\DESKTOP\GLTFSAMPLE\LIBS\CAULDRON\SRC\DX12\SHADERS\SKINNING.HLSL
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/Skinning.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\IAMVF\DESKTOP\GLTFSAMPLE\LIBS\CAULDRON\SRC\DX12\SHADERS\GLTFVERTEXFACTORY.HLSL
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/GLTFVertexFactory.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\IAMVF\DESKTOP\GLTFSAMPLE\LIBS\CAULDRON\SRC\DX12\SHADERS\PERFRAMESTRUCT.H
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/perFrameStruct.h C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\IAMVF\DESKTOP\GLTFSAMPLE\LIBS\CAULDRON\SRC\DX12\SHADERS\BLEND.HLSL
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/blend.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\IAMVF\DESKTOP\GLTFSAMPLE\LIBS\CAULDRON\SRC\DX12\SHADERS\BLUR.HLSL
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/blur.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\IAMVF\DESKTOP\GLTFSAMPLE\LIBS\CAULDRON\SRC\DX12\SHADERS\DEBUG.HLSL
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/Debug.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\IAMVF\DESKTOP\GLTFSAMPLE\LIBS\CAULDRON\SRC\DX12\SHADERS\DOWNSAMPLEPS.HLSL
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/DownSamplePS.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\IAMVF\DESKTOP\GLTFSAMPLE\LIBS\CAULDRON\SRC\DX12\SHADERS\TONEMAPPERS.HLSL
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/Tonemappers.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\IAMVF\DESKTOP\GLTFSAMPLE\LIBS\CAULDRON\SRC\DX12\SHADERS\TONEMAPPING.HLSL
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/Tonemapping.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\IAMVF\DESKTOP\GLTFSAMPLE\LIBS\CAULDRON\SRC\DX12\SHADERS\TONEMAPPINGCS.HLSL
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/TonemappingCS.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\IAMVF\DESKTOP\GLTFSAMPLE\LIBS\CAULDRON\SRC\DX12\SHADERS\COLORCONVERSIONPS.HLSL
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/ColorConversionPS.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\IAMVF\DESKTOP\GLTFSAMPLE\LIBS\CAULDRON\SRC\DX12\SHADERS\TAA.HLSL
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/TAA.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\IAMVF\DESKTOP\GLTFSAMPLE\LIBS\CAULDRON\SRC\DX12\SHADERS\TAASHARPENERCS.HLSL
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/TAASharpenerCS.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\IAMVF\DESKTOP\GLTFSAMPLE\LIBS\CAULDRON\SRC\DX12\SHADERS\MOTIONBLUR.HLSL
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/shaders/motionBlur.hlsl C:/Users/iamvf/Desktop/glTFSample/bin/ShaderLibDX
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\IAMVF\DESKTOP\GLTFSAMPLE\LIBS\CAULDRON\MEDIA\BRDFLUT.DDS
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/iamvf/Desktop/glTFSample/bin
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/DX12/../../media/brdfLut.dds C:/Users/iamvf/Desktop/glTFSample/bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\IAMVF\DESKTOP\GLTFSAMPLE\LIBS\CAULDRON\SRC\DX12\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/iamvf/Desktop/glTFSample -BC:/Users/iamvf/Desktop/glTFSample/build/DX12 --check-stamp-file C:/Users/iamvf/Desktop/glTFSample/build/DX12/libs/cauldron/src/DX12/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

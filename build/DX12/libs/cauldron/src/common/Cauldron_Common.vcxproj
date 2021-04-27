@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{69A32449-0795-3D89-A38B-3E10BF14A2D0}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>Cauldron_Common</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\iamvf\Desktop\glTFSample\build\DX12\libs\cauldron\src\common\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Cauldron_Common.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Cauldron_Common</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\iamvf\Desktop\glTFSample\build\DX12\libs\cauldron\src\common\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Cauldron_Common.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Cauldron_Common</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\iamvf\Desktop\glTFSample\build\DX12\libs\cauldron\src\common\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Cauldron_Common.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Cauldron_Common</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\iamvf\Desktop\glTFSample\build\DX12\libs\cauldron\src\common\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Cauldron_Common.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Cauldron_Common</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common;C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\libs\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/common/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/iamvf/Desktop/glTFSample -BC:/Users/iamvf/Desktop/glTFSample/build/DX12 --check-stamp-file C:/Users/iamvf/Desktop/glTFSample/build/DX12/libs/cauldron/src/common/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\iamvf\Desktop\glTFSample\build\DX12\libs\cauldron\src\common\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/common/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/iamvf/Desktop/glTFSample -BC:/Users/iamvf/Desktop/glTFSample/build/DX12 --check-stamp-file C:/Users/iamvf/Desktop/glTFSample/build/DX12/libs/cauldron/src/common/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\iamvf\Desktop\glTFSample\build\DX12\libs\cauldron\src\common\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/common/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/iamvf/Desktop/glTFSample -BC:/Users/iamvf/Desktop/glTFSample/build/DX12 --check-stamp-file C:/Users/iamvf/Desktop/glTFSample/build/DX12/libs/cauldron/src/common/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\iamvf\Desktop\glTFSample\build\DX12\libs\cauldron\src\common\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/iamvf/Desktop/glTFSample/libs/cauldron/src/common/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/iamvf/Desktop/glTFSample -BC:/Users/iamvf/Desktop/glTFSample/build/DX12 --check-stamp-file C:/Users/iamvf/Desktop/glTFSample/build/DX12/libs/cauldron/src/common/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\iamvf\Desktop\glTFSample\build\DX12\libs\cauldron\src\common\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\base\Sequence.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\base\Sequence.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\base\Benchmark.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\base\Benchmark.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\base\ImGuiHelper.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\base\ImGuiHelper.h" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\GLTF\GltfStructures.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\GLTF\GltfCommon.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\GLTF\GltfCommon.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\GLTF\GltfPbrMaterial.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\GLTF\GltfPbrMaterial.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\GLTF\glTFHelpers.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\GLTF\GltfHelpers.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\Async.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\Async.h" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\AsyncCache.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\Camera.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\Camera.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\ColorConversion.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\ColorConversion.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\DDSLoader.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\DDSLoader.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\DxgiFormatHelper.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\DxgiFormatHelper.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\Error.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\Error.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\FrameworkWindows.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\FrameworkWindows.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\Hash.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\Hash.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\ImgLoader.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\ImgLoader.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\Misc.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\Misc.h" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\Ring.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\ThreadPool.cpp" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\WICLoader.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\WICLoader.h" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\WirePrimitive.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\WirePrimitives.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\WirePrimitives.h" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\Misc\threadpool.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\base\ShaderCompiler.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\base\ShaderCompiler.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\base\ShaderCompilerCache.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\base\ShaderCompilerCache.h" />
+    <ClCompile Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\base\DXCHelper.cpp" />
+    <ClInclude Include="C:\Users\iamvf\Desktop\glTFSample\libs\cauldron\src\common\base\DXCHelper.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\iamvf\Desktop\glTFSample\build\DX12\ZERO_CHECK.vcxproj">
+      <Project>{513F4B7E-37AD-310F-9E8A-02B581647922}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
